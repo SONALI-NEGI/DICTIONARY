@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bricolage Grotesque", sans-serif;
+  }
+body {
+    background-color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #c5c5c5;
+  }
+  nav{
+    background: #d4d1d1;
+    color: black;
+  }
+#word-to-search {
+  width: 70%;
+  height: 3.75rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #34495e;
+  outline: none;
+  font: 300 2.4rem "Bricolage Grotesque", sans-serif;
+  padding: 1.4rem;
+  /* color: #34495e; */
+  color: #c5c5c5;
+  margin-bottom: 1rem;
+}
+
+#search-btn{
+    border: none;
+    background: black;
+    color: #c5c5c5;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+main{
+    display: none;
+  
+}
+main:hover{
+  cursor: default;
+}
+main > audio {
+  outline: none;
+  
+}
